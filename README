@@ -1,0 +1,6 @@
+USAGE
+1. place requirements.txt file in main directory (parallel to README)
+2. execute with 'python build.py <PROJECT_NAME> <PYTHON_VERSION>' in the 'builder/' directory
+	PYTHON VERSION key defaults to '27'.  Example values are '27', '35', '36'
+3. find .pyz file in 'dist/' directory
+4. install .pyz file by executing 'python <PROJECT_NAME>-dependencies-win_amd64-py<PY_VERSION>.pyz'

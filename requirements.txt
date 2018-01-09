@@ -1,0 +1,4 @@
+tailer==0.4.1
+pygithub==1.35
+python-gitlab
+pypiwin32==219
